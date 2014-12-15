@@ -1,2 +1,2 @@
-class Project < ActiveRecord::Base
+class Shelf < ActiveRecord::Base
 end
