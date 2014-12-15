@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141215221205) do
+ActiveRecord::Schema.define(version: 20141215222452) do
 
   create_table "shelves", force: true do |t|
     t.string   "location"
@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 20141215221205) do
     t.integer  "amount_in_tbsp"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "shelf_id"
   end
 
 end
